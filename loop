@@ -1,0 +1,6 @@
+def play_game()
+    round = 0
+    for i in range(12):
+        round+=i
+        print(round)
+print(play_game)
