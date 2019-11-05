@@ -28,7 +28,6 @@ def play_game():
    round11 = 12
    points = 0
    roll = dice_roll()
-
    print ("Round 1. Roll the dice!")
    print(f"You rolled {roll}")
    if roll == round1:
@@ -158,7 +157,6 @@ def play_game():
        play_game()
    else:
        print("Game Over.")
-
 
 create()
 play_game()
